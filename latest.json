@@ -1,7 +1,7 @@
 {
-  "version": "0.7.4",
-  "notes": "Davinci 0.7.4",
-  "pub_date": "2026-04-10T05:58:41Z",
+  "version": "0.7.5",
+  "notes": "Davinci 0.7.5",
+  "pub_date": "2026-04-10T05:59:05Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://gykim80.github.io/davinci-releases/Davinci.app_aarch64.tar.gz",
