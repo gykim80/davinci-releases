@@ -1,11 +1,11 @@
 {
-  "version": "1.1.50",
-  "notes": "Davinci 1.1.50",
-  "pub_date": "2026-04-28T12:05:58Z",
+  "version": "1.1.51",
+  "notes": "Davinci 1.1.51",
+  "pub_date": "2026-04-29T01:47:51Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://gykim80.github.io/davinci-releases/Davinci.app_aarch64.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYWIwVTFDbGR3VGxYaXNXOFkrejAxU09WWG9hai80YTBGbUt0QnRzVVFOU25Wc3Q0NnJrSG0rVkFiQ1crWHBrcy9tMTc5cEtQM1lqRi9MVU81eDFVNEpaOTQ4Zi9lVVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3Mzc3OTA1CWZpbGU6RGF2aW5jaS5hcHAudGFyLmd6Cm9SZndyVzIyM2JTblNJT251ZW9SK2loVGw4Z0M4VHFDMXkvbXd6NDRPbysvbWxSWm1ibW1nS0xkRnVVdWtOUjNFR3hYN0RsTzdBVzM2Z1NKT0FkUkRnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYWIwVTFDbGR3VHZPQU9aN1k0dlpCZFowVHdZRG1RRjlicnNiWDlsZnYrTU9hMlZqOXlPeTRkM3czanZvd09rWnFUemFZdjJxaUh6N0c0dU02Rit0cmhXVEVpV1IzZHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NDI3MjA5CWZpbGU6RGF2aW5jaS5hcHAudGFyLmd6Ci8rR0J4RWUxbEluR1ZpZHVPZlpGeHh6cFd6SWhPTkMwdURGdjJCSGxUT25SNFkyRFN3Q2FjTDd3WlBMbXBsUlBROUJmSFBMaFJxbEEvenM2SlAvK0NBPT0K"
     },
     "darwin-x86_64": {
       "url": "https://gykim80.github.io/davinci-releases/Davinci.app_x86_64.tar.gz",
