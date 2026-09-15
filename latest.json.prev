@@ -1,11 +1,11 @@
 {
-  "version": "2.2.87",
-  "notes": "Davinci 2.2.87",
-  "pub_date": "2026-09-14T05:52:19Z",
+  "version": "2.2.88",
+  "notes": "Davinci 2.2.88",
+  "pub_date": "2026-09-14T06:19:47Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://gykim80.github.io/davinci-releases/Davinci.app_aarch64.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTmFGc0trZVl6b2s5anRHbi8zZlozK1pzRFg5QmIwdkl2QWRaYklxNU43V2xYY3RCSzVDT1F5eEFPYTJ3SUJkYVdDa0huYk0wcHZ3bHU1dTVlYVlBK0oxZ1d4N3RsSXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzY1MDg1CWZpbGU6RGF2aW5jaS5hcHAudGFyLmd6ClhPblhtS0Y4TDdrQXN4ekNobWRMMFp5RjFiLzVobEdqSXN3VTNHMXRkZEtRVVF3OHZkK3U3VmJVeTY0b0IvQUp5eHhUbXNxQWpSKzRaWldyUzlvL0JBPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTmFGc0trZVl6b2hnUmZ5RnB2eGRGaGpwQVlsY1JINFBtZHJaZjFmcUd4eWVWZ1pwZXpnbDExVmp3MjVqMThnWUV6bXB6dFlVam5KS3FER1NmVnViUi9naGpHeVYwVVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzY2NzM5CWZpbGU6RGF2aW5jaS5hcHAudGFyLmd6CnI0UndqZHljVk5qOFZMaEUyRDhhMHRQbjgyVkRLLzgvbm9XdW4zRUQ5cC9ncnJqaWh5OG5KU3pEdGhrcVVXZ3lqQUlrb1JuRmR1TXJDUVdCWHdOZ0NRPT0K"
     }
   }
 }
