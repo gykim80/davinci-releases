@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 67,
+  "revision": 68,
   "updatedAt": "2026-11-02",
   "models": [
     {
@@ -312,6 +312,42 @@
       "deprecatedBy": null
     },
     {
+      "cli": "codex",
+      "provider": "OpenAI",
+      "costIn": "N/A",
+      "costOut": "N/A",
+      "ctx": "272k",
+      "requiresOpenrouter": false,
+      "minCliVersion": "0.146.0",
+      "aliases": [],
+      "defaultForSkills": [],
+      "active": true,
+      "deprecatedBy": null,
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol (Codex)",
+      "bestFor": "GPT-6 범용 주력 모델 — 일상 코딩·리서치 균형",
+      "tier": "balanced",
+      "sortOrder": 306
+    },
+    {
+      "cli": "codex",
+      "provider": "OpenAI",
+      "costIn": "N/A",
+      "costOut": "N/A",
+      "ctx": "272k",
+      "requiresOpenrouter": false,
+      "minCliVersion": "0.146.0",
+      "aliases": [],
+      "defaultForSkills": [],
+      "active": true,
+      "deprecatedBy": null,
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna (Codex)",
+      "bestFor": "GPT-6 고속·가성비 — 검증/리포트·가벼운 작업",
+      "tier": "light",
+      "sortOrder": 307
+    },
+    {
       "id": "gpt-5.6-sol",
       "cli": "codex",
       "provider": "OpenAI",
@@ -391,15 +427,15 @@
       "costIn": "N/A",
       "costOut": "N/A",
       "ctx": "272k",
-      "bestFor": "Deprecated — GPT-5.6 Luna 전환 권장 (2026-08-31 은퇴)",
+      "bestFor": "은퇴 (2026-08-31) — GPT-5.6 Luna 로 자동 승격",
       "requiresOpenrouter": false,
       "minCliVersion": null,
       "aliases": [],
       "defaultForSkills": [],
       "tier": "legacy",
       "sortOrder": 350,
-      "active": true,
-      "deprecatedBy": null
+      "active": false,
+      "deprecatedBy": "gpt-5.6-luna"
     },
     {
       "id": "anthropic/claude-fable-5.1",
