@@ -1,0 +1,48 @@
+name: Model Catalog Auto
+
+# OpenRouter 공개 목록에서 새 모델을 찾아 model-catalog.json 에 추가한다.
+# 앱은 GitHub Pages 의 이 파일을 6시간마다 읽으므로 재배포 없이 드롭다운에 나타난다.
+# 키가 필요 없다. 비공개 저장소 Actions 가 막혀 있어 공개 저장소인 여기서 돌린다.
+
+on:
+  schedule:
+    # 매일 09:30 KST
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: model-catalog-auto
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            model-catalog.json
+            scripts
+          sparse-checkout-cone-mode: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Discover new OpenRouter models
+        run: node scripts/discover-openrouter-models.mjs --apply | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit catalog
+        run: |
+          git diff --quiet -- model-catalog.json && { echo "변경 없음"; exit 0; }
+          node -e 'const c=require("./model-catalog.json"); if(!(c.schemaVersion===1&&c.revision>0&&c.models.length>0)) process.exit(1)'
+          rev=$(node -p 'require("./model-catalog.json").revision')
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add model-catalog.json
+          git commit -m "catalog: model-catalog.json revision $rev (auto)"
+          git push
