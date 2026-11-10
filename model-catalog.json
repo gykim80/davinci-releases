@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 69,
-  "updatedAt": "2026-11-07",
+  "revision": 70,
+  "updatedAt": "2026-11-10",
   "models": [
     {
       "id": "claude-fable-5-1",
@@ -1172,6 +1172,24 @@
       "defaultForSkills": [],
       "tier": "balanced",
       "sortOrder": 582,
+      "active": true,
+      "deprecatedBy": null
+    },
+    {
+      "id": "anthropic/claude-fable-5.2",
+      "cli": "openrouter",
+      "provider": "OpenRouter",
+      "name": "Claude Fable 5.2",
+      "costIn": "$8/1M",
+      "costOut": "$40/1M",
+      "ctx": "1M",
+      "bestFor": "OpenRouter 신규 모델",
+      "requiresOpenrouter": true,
+      "minCliVersion": null,
+      "aliases": [],
+      "defaultForSkills": [],
+      "tier": "flagship",
+      "sortOrder": 583,
       "active": true,
       "deprecatedBy": null
     }
