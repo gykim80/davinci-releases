@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 74,
-  "updatedAt": "2026-11-16",
+  "revision": 75,
+  "updatedAt": "2026-11-17",
   "models": [
     {
       "id": "claude-fable-5-2",
@@ -1000,8 +1000,8 @@
       "cli": "openrouter",
       "provider": "OpenRouter",
       "name": "DeepSeek V4.1 Flash 1017",
-      "costIn": "$0.02/1M",
-      "costOut": "$0.108/1M",
+      "costIn": "$0.036/1M",
+      "costOut": "$0.5/1M",
       "ctx": "1M",
       "bestFor": "OpenRouter 신규 모델",
       "requiresOpenrouter": true,
@@ -1090,8 +1090,8 @@
       "cli": "openrouter",
       "provider": "OpenRouter",
       "name": "GLM 5.3 Prime",
-      "costIn": "$2.8/1M",
-      "costOut": "$8.8/1M",
+      "costIn": "$1.68/1M",
+      "costOut": "$5.28/1M",
       "ctx": "1M",
       "bestFor": "OpenRouter 신규 모델",
       "requiresOpenrouter": true,
@@ -1316,6 +1316,24 @@
       "defaultForSkills": [],
       "tier": "flagship",
       "sortOrder": 583,
+      "active": true,
+      "deprecatedBy": null
+    },
+    {
+      "id": "qwen/qwen4-max",
+      "cli": "openrouter",
+      "provider": "OpenRouter",
+      "name": "Qwen4 Max",
+      "costIn": "$1.42/1M",
+      "costOut": "$4.27/1M",
+      "ctx": "1M",
+      "bestFor": "신규 모델 (2026-11-16 출시)",
+      "requiresOpenrouter": true,
+      "minCliVersion": null,
+      "aliases": [],
+      "defaultForSkills": [],
+      "tier": "flagship",
+      "sortOrder": 584,
       "active": true,
       "deprecatedBy": null
     }
