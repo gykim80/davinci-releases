@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 76,
-  "updatedAt": "2026-11-18",
+  "revision": 77,
+  "updatedAt": "2026-11-19",
   "models": [
     {
       "id": "claude-fable-5-2",
@@ -189,6 +189,24 @@
       "defaultForSkills": [],
       "tier": "light",
       "sortOrder": 60,
+      "active": true,
+      "deprecatedBy": null
+    },
+    {
+      "id": "google/gemini-4-neon",
+      "cli": "gemini",
+      "provider": "Google",
+      "name": "Gemini 4 Neon",
+      "costIn": "$3/1M",
+      "costOut": "$15/1M",
+      "ctx": "1M",
+      "bestFor": "신규 모델 (2026-11-18 출시)",
+      "requiresOpenrouter": true,
+      "minCliVersion": null,
+      "aliases": [],
+      "defaultForSkills": [],
+      "tier": "balanced",
+      "sortOrder": 105,
       "active": true,
       "deprecatedBy": null
     },
@@ -1036,8 +1054,8 @@
       "cli": "openrouter",
       "provider": "OpenRouter",
       "name": "DeepSeek V4.1 Flash 1017",
-      "costIn": "$0.036/1M",
-      "costOut": "$0.5/1M",
+      "costIn": "$0.035/1M",
+      "costOut": "$0.15/1M",
       "ctx": "1M",
       "bestFor": "OpenRouter 신규 모델",
       "requiresOpenrouter": true,
