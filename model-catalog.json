@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 80,
-  "updatedAt": "2026-11-22",
+  "revision": 81,
+  "updatedAt": "2026-11-24",
   "models": [
     {
       "id": "claude-fable-5-2",
@@ -1054,8 +1054,8 @@
       "cli": "openrouter",
       "provider": "OpenRouter",
       "name": "DeepSeek V4.1 Flash 1017",
-      "costIn": "$0.15/1M",
-      "costOut": "$0.6/1M",
+      "costIn": "$0.03/1M",
+      "costOut": "$0.2/1M",
       "ctx": "1M",
       "bestFor": "OpenRouter 신규 모델",
       "requiresOpenrouter": true,
@@ -1324,8 +1324,8 @@
       "cli": "openrouter",
       "provider": "OpenRouter",
       "name": "DeepSeek V4.1 Flash",
-      "costIn": "$0.05/1M",
-      "costOut": "$0.199/1M",
+      "costIn": "$0.3/1M",
+      "costOut": "$1.2/1M",
       "ctx": "1M",
       "bestFor": "OpenRouter 신규 모델",
       "requiresOpenrouter": true,
